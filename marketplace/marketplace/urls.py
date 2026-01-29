@@ -27,7 +27,7 @@ urlpatterns = [
     path('items/',include('item.url')),
     path("admin/", admin.site.urls),
 
-    
+    path('dashboard/',include('dashboard.urls')),
     path("contact/",contact,name='contact'),
 ]
 
